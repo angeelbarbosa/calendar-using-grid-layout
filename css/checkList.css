@@ -1,0 +1,42 @@
+.checkList{
+  /* border: 1px solid red; */
+  margin-block-start: 1.5rem;
+  max-inline-size: 12.25rem;
+  max-block-size: 10.5rem;
+  margin-inline-start: .25rem;
+}
+
+.checkListTop{
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: var(--body1-medium);
+  max-inline-size: 12.25rem;
+  max-block-size: 1.5rem;
+}
+
+.checkList li {
+  list-style: none;
+  /* list-style-type: none; */
+  /* text-decoration: none; */
+  margin-inline-start: -35px;
+  padding-block-end: .3rem;
+  font: var(--body1-regular);
+  max-block-size: 132px;
+}
+
+.checkList a{
+  font: var(--body1-regular);
+  color: var(--gray30);
+  text-decoration: none;
+  align-items: center;
+
+}
+
+.listItems{
+  display: flex;
+  /* font: var(--body1-regular); */
+  /* color: ; */
+}
+

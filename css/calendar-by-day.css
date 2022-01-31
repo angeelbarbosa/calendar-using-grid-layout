@@ -1,0 +1,16 @@
+.calendar-by-day{
+  display: grid;
+  grid-template-columns:  auto repeat(1, minmax(var(--minInlineSize), var(--maxInlineSize)));
+  min-block-size: 1100px;
+  grid-template-rows: 7rem repeat(24, minmax(var(--minBlockSize), var(--maxblockSize)));;
+
+}
+
+.span-day{
+  color: currentColor;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 10px;
+}
+
